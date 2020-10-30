@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="593ad9cd-405e-4de9-8c4b-e8d78657619a" name="Default Changelist" comment="" />
+    <list default="true" id="593ad9cd-405e-4de9-8c4b-e8d78657619a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/UsersController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/Recalbox_Logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/Sans titre-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/css.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/excode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/grid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/liste.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mockup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/pexels-photo-169573.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/pexels-photo-4888690.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/pexels-photo-546819.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/connexion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/deconnexion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/inscription.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/members.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/mixedGamesView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/mixedGamesView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/navbar.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,14 +40,20 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jQNG02bEkFNUXzx1qb0ueECmyZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -31,25 +67,43 @@
       <workItem from="1603732257757" duration="5343000" />
       <workItem from="1603817737470" duration="8152000" />
       <workItem from="1603875058903" duration="21000" />
-      <workItem from="1603875171181" duration="1829000" />
+      <workItem from="1603875171181" duration="2565000" />
+      <workItem from="1603963558232" duration="18708000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603737132358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603737132358" />
-    <state x="1252" y="246" key="NewPhpClassDialog" timestamp="1603733348414">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1603892536726">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603892536726" />
+    <state x="891" y="172" key="NewPhpClassDialog" timestamp="1603964366398">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="891" y="172" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1603964366398" />
     <state x="1252" y="246" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603733348414" />
-    <state x="1274" y="447" key="NewPhpFileDialog" timestamp="1603821297728">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="906" y="313" key="NewPhpFileDialog" timestamp="1603984862327">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="906" y="313" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1603984862327" />
     <state x="1274" y="447" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603821297728" />
   </component>
 </project>

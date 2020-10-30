@@ -12,10 +12,14 @@
             <li class="nav-item">
                 <a class="nav-link" href="index.php?url=meteo-api">METEO GRENOBLE</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.php?url=membres">LISTE DES VENDEURS</a>
+            </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Rechercher">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+            <a href="index.php?url=inscription" class="btn btn-outline-success mr-2 my-2 my-sm-0" type="submit">Inscription</a>
+            <a href="index.php?url=connexion" class="btn btn-outline-warning mr-2 my-2 my-sm-0" type="submit">Connexion</a>
+            <a href="index.php?url=connexion" class="btn btn-outline-danger my-2 my-sm-0" type="submit">Deconnexion</a>
         </form>
     </div>
 </nav>
