@@ -1,33 +1,37 @@
-<h1 class="text-warning">INSCRIPTION</h1>
 
-<form method="post" action="" enctype="multipart/form-data">
+<br >
+<div class="main-bloc">
+    <h1 class="text-warning">INSCRIPTION</h1>
+    <form method="post" action="" enctype="multipart/form-data">
 
-    <div class="form-group">
-        <label for="pseudo">Votre pseudo</label>
-        <input type="text" class="form-control" id="pseudo" name="pseudo" placeholder="Votre pseudo"/>
-    </div>
+        <div class="form-group">
+            <label for="pseudo">Votre pseudo</label>
+            <input type="text" class="form-control" id="pseudo" name="pseudo" placeholder="Votre pseudo"/>
+        </div>
 
-    <div class="form-group">
-        <label for="email">Votre email</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="Votre email"/>
-    </div>
+        <div class="form-group">
+            <label for="email">Votre email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Votre email"/>
+        </div>
 
-    <div class="form-group">
-        <label for="password">Votre mot de passe</label>
-        <input type="password" class="form-control" id="password" name="password" placeholder="Votre mot de passe"/>
-    </div>
+        <div class="form-group">
+            <label for="password">Votre mot de passe</label>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Votre mot de passe"/>
+        </div>
 
-    <div class="form-group">
-        <label for="password-repeat">Répéter votre mot de passe</label>
-        <input type="password" class="form-control" id="password-repeat" name="password-repeat" placeholder="Répéter votre mot de passe"/>
-    </div>
-    <div class="form-group">
-        <label for="img">Votre image de profil</label>
-        <input type="file" name="img" class="form-control-file" id="img">
-    </div>
-    <br />
-    <button type="submit" class="btn btn-outline-success">Valider</button>
-</form>
+        <div class="form-group">
+            <label for="password-repeat">Répéter votre mot de passe</label>
+            <input type="password" class="form-control" id="password-repeat" name="password-repeat" placeholder="Répéter votre mot de passe"/>
+        </div>
+        <div class="form-group">
+            <label for="img">Votre image de profil</label>
+            <input type="file" name="img" class="form-control-file" id="img">
+        </div>
+        <br />
+        <button type="submit" class="btn btn-outline-success">Valider</button>
+    </form>
+</div>
+
 
 <?php
 //Traitement de l'image
@@ -40,6 +44,7 @@ if(isset($_POST['img'])){
 //Chemin ou sont stocké les images
 $target_dir = "public/img/";
 //dossier + nom de l'image
+$img = $_POST['img'];
 $img = $target_dir .basename($_FILES["img"]["name"]);
 //Bool ok ou non
 $uploadOK = 1;
@@ -79,6 +84,9 @@ if($uploadOK == 0){
         echo '<h1 class="text-danger">Une erreur de téléchargement c\'est produite lors du traitement </h1>';
     }
 }
+?>
+
+
 
 
 

@@ -1,6 +1,5 @@
 <?php
-
-
+require "public/pdf/fpdf.php";
 class DatabasePDO
 {
     protected function pdoConnect(){

@@ -11,26 +11,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="593ad9cd-405e-4de9-8c4b-e8d78657619a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/UsersController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/Recalbox_Logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/Sans titre-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/css.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/excode.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/grid.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/liste.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/mockup.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/pexels-photo-169573.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/pexels-photo-4888690.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/pexels-photo-546819.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/connexion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/deconnexion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/inscription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/members.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/exsite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/FAQ.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/changelog.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/__construct.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/acceptpagebreak.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/addfont.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/addlink.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/addpage.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/aliasnbpages.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/cell.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/close.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/error.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/footer.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/getpageheight.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/getpagewidth.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/getstringwidth.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/getx.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/gety.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/header.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/image.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/index.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/line.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/link.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/ln.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/multicell.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/output.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/pageno.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/rect.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setauthor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setautopagebreak.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setcompression.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setcreator.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setdisplaymode.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setdrawcolor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setfillcolor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setfont.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setfontsize.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setkeywords.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setleftmargin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setlinewidth.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setlink.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setmargins.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setrightmargin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setsubject.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/settextcolor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/settitle.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/settopmargin.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setx.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/setxy.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/sety.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/text.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/doc/write.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/font/courier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/font/courierb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/font/courierbi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/font/courieri.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/font/helvetica.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/font/helveticab.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/font/helveticabi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/font/helveticai.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/font/symbol.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/font/times.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/font/timesb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/font/timesbi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/font/timesi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/font/zapfdingbats.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/fpdf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/fpdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/install.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/cp1250.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/cp1251.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/cp1252.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/cp1253.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/cp1254.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/cp1255.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/cp1257.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/cp1258.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/cp874.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/iso-8859-1.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/iso-8859-11.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/iso-8859-15.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/iso-8859-16.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/iso-8859-2.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/iso-8859-4.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/iso-8859-5.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/iso-8859-7.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/iso-8859-9.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/koi8-r.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/koi8-u.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/makefont.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pdf/makefont/ttfparser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/pdf.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/DatabasePDO.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/DatabasePDO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/UsersModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/UsersModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/deconnexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/deconnexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/members.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/members.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/mixedGamesDetailView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/mixedGamesDetailView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/mixedGamesView.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/mixedGamesView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/template.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +129,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jQNG02bEkFNUXzx1qb0ueECmyZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projet-6-Poo-MVC-master" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -69,6 +158,10 @@
       <workItem from="1603875058903" duration="21000" />
       <workItem from="1603875171181" duration="2565000" />
       <workItem from="1603963558232" duration="18708000" />
+      <workItem from="1604044735468" duration="7409000" />
+      <workItem from="1604060540514" duration="5677000" />
+      <workItem from="1604322750199" duration="40000" />
+      <workItem from="1605704384962" duration="70000" />
     </task>
     <servers />
   </component>
@@ -85,20 +178,38 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603737132358">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="59" y="205" key="#SQL_Dialects" timestamp="1604044767906">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="59" y="205" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1604044767906" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604045129767">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604045129767" />
+    <state x="826" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604045197759">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="826" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604045197759" />
     <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603737132358" />
-    <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1603892536726">
+    <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1605704453465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728/-1920.-182.1920.1040@0.0.1366.728" timestamp="1605704453465" />
     <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603892536726" />
-    <state x="891" y="172" key="NewPhpClassDialog" timestamp="1603964366398">
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1604044997181">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="891" y="172" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1603964366398" />
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1604044997181" />
+    <state x="891" y="172" key="NewPhpClassDialog" timestamp="1604061370518">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="891" y="172" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1604061370518" />
     <state x="1252" y="246" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603733348414" />
     <state x="906" y="313" key="NewPhpFileDialog" timestamp="1603984862327">
       <screen x="0" y="0" width="1366" height="728" />

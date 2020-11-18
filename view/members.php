@@ -1,14 +1,22 @@
 
 
 <?php
+
 ob_start();
 ?>
-<h1 class="text-danger">Liste des membres</h1>
+<br />
+<div class="main-bloc form-inline my-2 my-lg-0 text-center">
+    <h1 class="text-danger">Liste des vendeurs</h1>
+    <br />
+    <a class="btn btn-outline-dark float-right" name="generatePDF">Generer un PDF</a>
+</div>
+<br>
+
 <?php
 //Appel de la variable : $gamesList = $gamesManager->getMixedGames(); du controller
 while ($data = $userList->fetch()){
     ?>
-
+<div class="main-bloc">
     <table class="table table-striped">
         <thead>
         <tr>
@@ -29,6 +37,11 @@ while ($data = $userList->fetch()){
         </tr>
         </tbody>
     </table>
+</div>
     <?php
 }
 ?>
+
+<?php
+
+

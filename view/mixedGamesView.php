@@ -4,13 +4,16 @@
 ob_start();
 ?>
 <hr>
-<h1 class="text-danger text-center">Top des ventes</h1>
+<div class="main-bloc">
+    <h1 class="text-danger text-center">Top des ventes</h1>
+</div>
+
 <hr>
 <?php
 //Appel de la variable : $gamesList = $gamesManager->getMixedGames(); du controller
 while ($data = $gamesList->fetch()){
     ?>
-        <div class="row">
+        <div class="row main-bloc">
             <div class="col-6 text-center">
                 <h2 class="text-warning"><?= $data['title'] ?></h2>
                 <img width="25%" src="<?= $data['imgurl'] ?>">

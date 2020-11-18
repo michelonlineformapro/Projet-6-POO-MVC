@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">QIWOGAMES</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +11,7 @@
                 <a class="nav-link" href="index.php?url=top-des-ventes">TOP DES VENTES <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.php?url=meteo-api">METEO GRENOBLE</a>
+                <a class="nav-link" href="index.php?url=meteo-api">API AJAX FILM</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="index.php?url=membres">LISTE DES VENDEURS</a>

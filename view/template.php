@@ -7,6 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="public/pdf/fpdf.css">
+    <link rel="stylesheet" type="text/css" href="public/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 
     <title><?= $title ?></title>
 </head>

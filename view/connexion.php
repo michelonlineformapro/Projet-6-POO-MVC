@@ -1,3 +1,5 @@
+<br>
+<div class="main-bloc">
 <h1 class="text-success">CONNEXION</h1>
 
 <form method="post" action="">
@@ -13,7 +15,7 @@
     </div>
     <button name="loginBtn" type="submit" class="btn btn-outline-success">Valider</button>
 </form>
-<?php
+</div>
 
 
 

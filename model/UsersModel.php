@@ -56,20 +56,26 @@ class UsersModel extends DatabasePDO
             $req->bindParam(2, $password);
             $req->execute(array($email, $password));
 
+            $count = $req->rowCount();
+
             $res = $req->fetch();
-                if($res['email'] == $email && $res['password'] == $password) {
-                    $_SESSION['email'] = $email;
-                    $_SESSION['password'] = $password;
-                    echo "connexion reussie, bienvenue : " . $email . " Votre mot de passe : " . $password . "<br />";
-                    echo '<a href="index.php?url=administration" class="btn btn-outline-warning">Espace administration</a>';
+
+                if($count == 1 && !empty($res)) {
+                    $_SESSION['email'] = $res['email'];
+                    $_SESSION['password'] = $res['password'];
+                    $_SESSION['loggedin'] = true;
+
+
+                    if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+                        echo '<div class="main-bloc"><p class="alert-success">connexion reussie, bienvenue : '. $_SESSION["email"] . '<br /> Votre mot de passe : ' . $_SESSION["password"] . '</p>';
+                        echo '<a href="./index.php?url=administration" class="btn btn-outline-warning">Espace administration</a>';
+                        echo '<a href="index.php?url=connexion" class="btn btn-outline-danger ml-2 my-2 my-sm-0" type="submit">Deconnexion</a></div>';
+                    } else {
+                        echo "Erreur de connexion : Merci de vérifié que les champs email et mot de passe soient bien rempli et valide !";
+                    }
                 }else{
-                    echo "Erreur de connexion : Merci de vérifié que les champs email et mot de passe soient bien rempli et valide !";
+                    echo '<p class="alert-danger">Erreur de connexion : Merci de vérifié que les champs email et mot de passe soient bien rempli et valide !</p>';
                 }
-
-
-
-
-
 
     }
 }
